@@ -1,5 +1,5 @@
-# Python-Coding-Test-Fibonacci
-Example Python coding test that requires the candidate to return the nth element in the Fibonacci sequence.
+# Python-CodeScreen-Fibonacci
+Example CodeScreen Python test that requires the candidate to return the nth element in the Fibonacci sequence.
 
 The file to write this function in is fib/fibonacci.py.
 

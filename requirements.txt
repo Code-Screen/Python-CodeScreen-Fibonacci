@@ -1,5 +1,5 @@
 #Dependencies required for test.
 
-pytest==4.4.0
+pytest==4.5.0
 
 

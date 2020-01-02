@@ -1,2 +1,5 @@
-def calculate(n):
-    //TODO Implement
+class FibonacciCalculator(object):
+
+    def calculate(self, n):
+        """TODO Implement
+        """

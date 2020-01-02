@@ -1,17 +1,21 @@
-import unittest
+import pytest
 
-from fib.fibonacci import calculate
+from fib.fibonacci import FibonacciCalculator
 
-class FibonacciTest(unittest.TestCase):
+_calculator= FibonacciCalculator()
 
-    def test_1(self):
-        self.assertEqual(calculate(0), 0)
+@pytest.fixture
+def calculator_setup():
+    return _calculator
 
-    def test_2(self):
-        self.assertEqual(calculate(5), 5)
+def test_1(calculator_setup):
+    assert calculator_setup.calculate(0) == 0
+ 
+def test_2(calculator_setup):
+    assert calculator_setup.calculate(5) == 5
 
-    def test_3(self):
-        self.assertEqual(calculate(20), 6765)
+def test_3(calculator_setup):
+    assert calculator_setup.calculate(20) == 6765
 
-    def test_4(self):
-        self.assertEqual(calculate(25), 75025)
+def test_4(calculator_setup):
+    assert calculator_setup.calculate(25) == 75025

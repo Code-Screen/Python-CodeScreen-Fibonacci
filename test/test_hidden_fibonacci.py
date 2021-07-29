@@ -2,7 +2,7 @@ import pytest
 
 from fib.fibonacci import FibonacciCalculator
 
-_calculator= FibonacciCalculator()
+_calculator = FibonacciCalculator()
 
 @pytest.fixture
 def calculator_setup():

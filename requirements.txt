@@ -1,5 +1,3 @@
 #Dependencies required for test.
 
 pytest==4.4.0
-
-

@@ -1,3 +1,4 @@
-#Dependencies required for test.
+# Dependencies required for this assessment.
+# Note the existing dependencies here must not be changed.
 
-pytest==6.2.5
+pytest==7.4.0
